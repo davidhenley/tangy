@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:64580/",
+      "applicationUrl": "http://localhost:5000/",
       "sslPort": 44325
     }
   },
@@ -11,7 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "https://localhost:44325/",
+      "launchUrl": "https://localhost:5000/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -19,10 +19,10 @@
     "Tangy": {
       "commandName": "Project",
       "launchBrowser": true,
-      "environmentVariables": {
+      "environmentVariables": {s
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:64581/"
+      "applicationUrl": "http://localhost:5000/"
     }
   }
 }
