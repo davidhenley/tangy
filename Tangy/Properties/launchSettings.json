@@ -11,7 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "https://localhost:5000/",
+      "launchUrl": "https://localhost:44325/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -19,7 +19,7 @@
     "Tangy": {
       "commandName": "Project",
       "launchBrowser": true,
-      "environmentVariables": {s
+      "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "http://localhost:5000/"
