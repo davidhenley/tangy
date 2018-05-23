@@ -18,7 +18,7 @@
 </head>
 <body>
 
-    <!-- START NAVIGATION BAR -->
+    <!-- NAVIGATION BAR START -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" asp-controller="Home" asp-action="Index">Tangy</a>
 
@@ -54,16 +54,26 @@
                 </li>
             </ul>
         </div>
-    </nav>
-    <!-- END NAVIGATION BAR -->
 
+        <div class="form-inline">
+            @await Html.PartialAsync("_LoginPartial")
+        </div>
+    </nav>
+    <!-- NAVIGATION BAR END -->
+
+    <!-- MAIN CONTAINER START -->
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2018 - Tangy</p>
-        </footer>
     </div>
+    <!-- MAIN CONTAINER END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+        <div class="cont">
+            <p class="text-muted">&copy; 2018 - Tangy</p>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
